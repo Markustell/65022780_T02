@@ -39,3 +39,7 @@ input {
 }select {
     padding-right: 0.5rem;
 }
+
+P {
+    font-size: 2rem;
+}

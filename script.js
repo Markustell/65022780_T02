@@ -9,4 +9,18 @@ let txtOut = () => {
     let Sn = document.forms["FORM"]["sname"].value;
     let Cld = document.getElementById("calendar");
     let Lan = document.getElementById("lang");
+
+    if(Fn != null || Fn != "", Sn != null || Sn != "", Cld.value, Lan.value != "unselect") {
+        text.style.color = "green";
+        text.innerHTML = Fn + "," + Sn + "," + Cld.value + "," + Lan.value;
+    } else {
+        let alertFn = Fn == null || Fn == "" ? "Insert Name<br>" : "";
+        let alertSn = Sn == null || Sn == "" ? "Insert Surname<br>" : "";
+        let alertCld = !Cld.value ? "Insert Birth date<br>" : "";
+        let alertLan = Lan.value == "unselect" ? "Select Language" : "";
+        text.style.color = "red";
+        text.innerHTML = alertFn + alertSn + alertCld + alertLan;
+    }
+
+    
 }
