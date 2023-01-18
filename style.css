@@ -25,3 +25,18 @@
     box-sizing: border-box;
     font-family: "Kanit-Regular", sans-serif;
 }
+
+.form-ctn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    border: 1px solid red;
+}
+
+form {
+    padding: 2rem;
+    height: fit-content;
+    border: 1px solid red;
+    border-radius: 5px;
+}
