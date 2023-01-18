@@ -22,6 +22,4 @@ let txtOut = () => {
         text.style.color = "red";
         text.innerHTML = alertFn + alertSn + alertCld + alertLan;
     }
-
-    
 }
