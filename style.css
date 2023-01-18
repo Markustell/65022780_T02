@@ -29,14 +29,16 @@
 .form-ctn {
     display: flex;
     justify-content: center;
-    align-items: center;
     min-height: 100vh;
-    border: 1px solid red;
+    margin-top: 2rem;
 }
 
-form {
-    padding: 2rem;
-    height: fit-content;
-    border: 1px solid red;
-    border-radius: 5px;
+input {
+    margin: 0.2rem;
+}button {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+}select {
+    padding-right: 0.5rem;
 }
