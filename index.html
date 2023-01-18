@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="form-ctn">
-        <form>
+        <form name="FORM">
             <label for="fname">Name</label><br>
             <input type="text" name="fname" id="fname" onfocus="FocusBx(this)" onblur="BlurBx(this)"><br>
             <label for="sname">Surname</label><br>
@@ -24,12 +24,11 @@
                 <option value="js">JavaScript</option>
                 <option value="python">Python</option>
             </select><br>
-            <button type="submit" onclick="txtOut()">submit</button>
+            <button type="button" onclick="txtOut()">submit</button>
         </form>
-        <h1 id="text-output"></h1>
+        <p id="textOutput"></p>
     </div>
-    
-    
+
     <script src="./script.js"></script>
 </body>
 </html>

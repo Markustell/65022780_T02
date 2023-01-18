@@ -27,10 +27,7 @@
 }
 
 .form-ctn {
-    display: flex;
-    justify-content: center;
-    min-height: 100vh;
-    margin-top: 2rem;
+    margin: 2rem;
 }
 
 input {
